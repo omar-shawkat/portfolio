@@ -19,7 +19,7 @@ const CONFIG = {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -136,7 +136,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'fantasy',
+    defaultTheme: 'corporate',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -156,7 +156,7 @@ const CONFIG = {
       'cupcake',
       'bumblebee',
       'emerald',
-      'corporate',
+      'fantasy',
       'synthwave',
       'retro',
       'cyberpunk',
