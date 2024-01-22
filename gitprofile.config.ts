@@ -102,8 +102,8 @@ const CONFIG = {
   certifications: [
     {
       name: 'Google Cybersecurity Certificate',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'January 2023',
+      body: 'General Cybersecurity Specialization',
+      year: 'January 2024',
       link: 'https://www.coursera.org/professional-certificates/google-cybersecurity',
     },
   ],
