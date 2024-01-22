@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'omarshawkat', // Your GitHub org/user name. (This is the only required config)
+    username: 'omar-shawkat', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -136,7 +136,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'nord',
+    defaultTheme: 'fantasy',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -167,7 +167,7 @@ const CONFIG = {
       'aqua',
       'lofi',
       'pastel',
-      'fantasy',
+      'nord',
       'wireframe',
       'black',
       'luxury',
