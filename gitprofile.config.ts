@@ -20,12 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['omar-shawkat/portfolio'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['omar-shawkat/rustscan'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -135,8 +135,9 @@ const CONFIG = {
     id: '',
     snippetVersion: 6,
   },
-  themeConfig: {
-    defaultTheme: 'corporate',
+  
+themeConfig: {
+    defaultTheme: 'nord',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -156,7 +157,7 @@ const CONFIG = {
       'cupcake',
       'bumblebee',
       'emerald',
-      'fantasy',
+      'corporate',
       'synthwave',
       'retro',
       'cyberpunk',
@@ -167,7 +168,7 @@ const CONFIG = {
       'aqua',
       'lofi',
       'pastel',
-      'nord',
+      'fantasy',
       'wireframe',
       'black',
       'luxury',
